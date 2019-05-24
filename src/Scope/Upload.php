@@ -153,7 +153,7 @@ class Upload
 					  $this->client_id_type;
 		
 		if ($this->comment) {
-			$requestUrl .= '&comment=emailtracking';
+			$requestUrl .= '&comment=' . $this->comment;
 		}
 		
 		$result = false;
