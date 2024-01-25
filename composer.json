@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mini-soft\\YandexMetrikaOffline\\": "src/"
+            "Meiji\\YandexMetrikaOffline\\": "src/"
         }
     }
 }
